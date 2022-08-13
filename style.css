@@ -35,18 +35,46 @@ body {
 
 /*main*/
 main {
-    border: 3px solid blue;
+    
+}
+
+hr {
+    border: 2px solid var(--preto);
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.label__padrao {
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 .input__padrao {
     display: block;
-    margin: 0 0 20px;
+    margin: 5px 0 40px 10px;
     padding: 5px 10px;
     width: 40%;
 }
 
 .calcular {
+    display: block;
     width: 40%;
-    padding: ;
+    padding: 5px 0;
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--preto);
+    margin: 0 auto;
+    cursor: pointer;
+}
 
+/*aumenta os elementos em 10%*/
+.calcular:hover {
+    background-color: rgb(231, 85, 85);
+    color: var(--preto);
+    transform: scale(1.1);
 }
