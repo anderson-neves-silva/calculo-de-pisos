@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <head class="container">
+    <header class="container">
         <a href="www.sodimac.com.br"><img src="img/logo.png" alt="Logo da Sodimaca" class="container__logo"></a>
-        <h1>Sodimac Dicico Jundiaí</h1>
-    </head>
+        <h1 class="container__titulo">Sodimac Dicico<br> Jundiaí</h1>
+    </header>
 
     <main>
+        <form action="">
+            <label for="metrosDaCaixa">QUANTOS METROS A CAIXA POSSUI ?</label>
+            <input type="text" id="metrosDaCaixa" class="input__padrao" placeholder="EX: 1.80" required>
+            <label for="qtdComprada">QUANTOS METROS O CLIENTE COMPROU</label>
+            <input type="text" id="qtdComprada" class="input__padrao" placeholder="EX: 2.00" required>
+            <input type="submit" value="Calcular" class="calcular" id="calcular">
+        </form>
 
     </main>
 
