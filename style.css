@@ -80,3 +80,16 @@ form {
     text-align: center;
     margin-top: 20px;
 }
+
+h1, h2, h3 {
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+span {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: var(--branco);
+    color: var(--preto);
+    border-radius: 25px;
+}
