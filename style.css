@@ -33,11 +33,6 @@ body {
     margin-top: 25px;
 }
 
-/*main*/
-main {
-    
-}
-
 hr {
     border: 2px solid var(--preto);
 }
@@ -59,7 +54,7 @@ form {
     width: 40%;
 }
 
-.calcular {
+.botao__padrao {
     display: block;
     width: 40%;
     padding: 6px 0;
@@ -70,6 +65,7 @@ form {
     background-color: var(--preto);
     margin: 0 auto;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .calcular:hover {
