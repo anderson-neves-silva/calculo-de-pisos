@@ -62,7 +62,7 @@ form {
 .calcular {
     display: block;
     width: 40%;
-    padding: 5px 0;
+    padding: 6px 0;
     color: var(--branco);
     font-size: 1em;
     font-weight: bold;
@@ -72,9 +72,13 @@ form {
     cursor: pointer;
 }
 
-/*aumenta os elementos em 10%*/
 .calcular:hover {
     background-color: rgb(231, 85, 85);
     color: var(--preto);
-    transform: scale(1.1);
+}
+
+/*resuldado do cálculo*/
+.container__resultado {
+    text-align: center;
+    margin-top: 20px;
 }
