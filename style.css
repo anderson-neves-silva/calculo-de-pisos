@@ -1,7 +1,8 @@
 :root {
-    --cor-de-fundo: rgb(255, 0, 0);
+    --cor-de-fundo: rgb(166, 194, 255);
     --branco: #ffffff;
-    --preto: rgb(5, 0, 0);
+    --preto: rgb(92, 83, 83);
+    --azul: rgb(6, 6, 236);
 }
 
 body {
@@ -17,11 +18,27 @@ body {
     padding: 0;
 }
 
+.container__resultado h1{
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+
+.container__resultado h2 {
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+
+.container__resultado h3 {
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+
 /*header*/
 .container {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    background-color: var(--branco);
 }
 
 .container__logo {
@@ -31,6 +48,7 @@ body {
 .container__titulo {
     font-size: 1.7em;
     margin-top: 25px;
+    color: var(--azul);
 }
 
 hr {
@@ -47,6 +65,7 @@ form {
 
 .label__padrao {
     font-weight: bold;
+    color: var(--azul);
 }
 
 .input__padrao {
@@ -70,20 +89,15 @@ form {
     margin-bottom: 15px;
 }
 
-.calcular:hover {
-    background-color: rgb(231, 85, 85);
-    color: var(--preto);
+.botao__padrao:hover {
+    background: var(--azul);
+    transform: scale(1.05);
 }
 
 /*resuldado do cálculo*/
 .container__resultado {
     text-align: center;
     margin-top: 20px;
-}
-
-h1, h2, h3 {
-    color: var(--branco);
-    margin-bottom: 20px;
 }
 
 span {
