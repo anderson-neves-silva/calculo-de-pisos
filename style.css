@@ -6,7 +6,7 @@
 }
 
 body {
-    border: 3px solid var(--preto);
+    border: 1px solid var(--preto);
     background-color: var(--cor-de-fundo);
     border-radius: 10px;
     width: 100%;
@@ -39,6 +39,7 @@ body {
     justify-content: space-around;
     text-align: center;
     background-color: var(--branco);
+    padding: 1em;
 }
 
 .container__logo {
@@ -52,7 +53,7 @@ body {
 }
 
 hr {
-    border: 2px solid var(--preto);
+    border: 1px solid var(--preto);
 }
 
 form {
