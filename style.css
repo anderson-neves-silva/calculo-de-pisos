@@ -39,7 +39,7 @@ body {
     justify-content: space-around;
     text-align: center;
     background-color: var(--branco);
-    padding: 1em;
+    padding: 2em;
 }
 
 .container__logo {
